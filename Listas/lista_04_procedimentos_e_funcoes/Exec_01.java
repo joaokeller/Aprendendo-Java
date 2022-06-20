@@ -6,13 +6,13 @@ public class Exec_01 {
 
 	public static void main(String[] args) {
 
-		/* 1 ñ DESENVOLVA UM PROGRAMA QUE LEIA A IDADE DE UM NADADOR. DESENVOLVA UM
-		 * M…TODO SEM RETORNO (ìPROCEDIMENTOî) QUE RECEBA ESSA IDADE POR PAR¬METRO E
+		/* 1 ‚Äì DESENVOLVA UM PROGRAMA QUE LEIA A IDADE DE UM NADADOR. DESENVOLVA UM
+		 * M√âTODO SEM RETORNO (‚ÄúPROCEDIMENTO‚Äù) QUE RECEBA ESSA IDADE POR PAR√ÇMETRO E
 		 * INFORME A CATEGORIA DO NADADOR CONFORME TABELA ABAIXO:
 		 */
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("Ol· o presente programa recebe a idade "
+		System.out.println("Ol√° o presente programa recebe a idade "
 				+ "\nde um nadador e informa a categoria a qual o nadador pertence.\n");
 		System.out.print("Por favor insira a idade do nadador: ");
 		int idade = input.nextInt();
@@ -36,6 +36,6 @@ public class Exec_01 {
 				}
 			}
 		}
-		System.out.print("A categoria do nadador È: " + categoria);
+		System.out.print("A categoria do nadador √©: " + categoria);
 	}
 }
