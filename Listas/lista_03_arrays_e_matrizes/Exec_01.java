@@ -10,29 +10,29 @@ public class Exec_01 {
 		ORDEM DE LEITURA E DEPOIS NA ORDEM INVERSA DA LEITURA.*/
 
 
-		System.out.println("Bem vindo; \nO presente programa lê 10 nomes; Após isso ele "
+		System.out.println("Bem vindo; \nO presente programa lÃª 10 nomes; ApÃ³s isso ele "
 				+ "\napresenta os nomes na ordem de leitura e na ordem inversa da leitura.\n");
 		
-//		Captação de entradas e cálculo	
+//		CaptaÃ§Ã£o de entradas e cÃ¡lculo	
 
 		Scanner input = new Scanner(System.in);
 		String[] nomes = new String[10];
 
 		for ( int i = 0; i < nomes.length; ++i ) {
-			System.out.print("Por favor insira o " + (i + 1) + "º nome:");
+			System.out.print("Por favor insira o " + (i + 1) + "Âº nome:");
 			nomes[i] = input.nextLine();
 		}
 		
-//		Apresentação de resultados
+//		ApresentaÃ§Ã£o de resultados
 
 		System.out.println("\n------------------------------\nNa ordem de leitura:\n");
 		for ( int i = 0; i < nomes.length; ++i ) {
-			System.out.println("O " + (i+1) + "º nome é: " + nomes[i]);
+			System.out.println("O " + (i+1) + "Âº nome Ã©: " + nomes[i]);
 		}
 		
 		System.out.println("\n------------------------------\nNa ordem inversa a de leitura:\n");
 		for ( int i = (nomes.length-1) ; i >= 0 ; --i ) {
-			System.out.println("O " + (i+1) + "º nome é: " + nomes[i]);
+			System.out.println("O " + (i+1) + "Âº nome Ã©: " + nomes[i]);
 		}
 
 		input.close();
